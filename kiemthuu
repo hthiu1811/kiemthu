@@ -1,0 +1,7 @@
+var errorElement = document.getElementById('error-message');
+if (errorElement) {
+    // Nếu có thông báo lỗi xuất hiện, bạn có thể in nó ra console hoặc thực hiện các hành động khác tùy thuộc vào nhu cầu kiểm thử của bạn
+    console.error("Error message found: " + errorElement.textContent);
+} else {
+    console.log("No error message found.");
+}
